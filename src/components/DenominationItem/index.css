@@ -1,0 +1,24 @@
+.denomination-box {
+  list-style-type: none;
+}
+.btn {
+  background-color: #585076;
+  border: 1px #c4c4c4 solid;
+  color: #c4c4c4;
+  font-family: 'Roboto';
+  font-size: 10px;
+  width: 70px;
+  height: 20px;
+  border-radius: 2px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    font-size: 20px;
+    width: 120px;
+    height: 30px;
+    outline: none;
+  }
+}
