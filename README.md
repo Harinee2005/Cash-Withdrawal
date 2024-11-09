@@ -1,4 +1,4 @@
-In this project, let's build a **Cash Withdrawal** app by applying the concepts we have learned till now.
+In this project, let's build a **Cash Withdrawal** app.
 
 ### Refer to the image below:
 
@@ -69,37 +69,6 @@ Use these files to complete the implementation:
 - `src/components/DenominationItem/index.css`
 </details>
 
-### Quick Tips
-
-<details>
-<summary>Click to view</summary>
-<br>
-
-- The string method `slice()` extracts a section of a string and returns it as a new string, without modifying the original string
-
-  ```js
-  const text = "The quick brown fox";
-  console.log(text.slice(0, 3)); // The
-  console.log(text.slice(2, 3)); // e
-  ```
-
-- You can use the `cursor` CSS property to specify the mouse cursor to be displayed when pointing over an element
-
-  ```
-    cursor: pointer;
-  ```
-
-  <br/>
-   <img src="https://assets.ccbp.in/frontend/content/react-js/cursor-pointer-img.png" alt="cursor pointer" style="width:100px" />
-
-- You can use the below `outline` CSS property for buttons and input elements to remove the highlighting when the elements are clicked
-
-  ```
-    outline: none;
-  ```
-
-  </details>
-
 ### Resources
 
 <details>
@@ -123,10 +92,3 @@ Use these files to complete the implementation:
 - Roboto
 
 </details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
